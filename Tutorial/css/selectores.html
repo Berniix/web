@@ -12,12 +12,34 @@
         si tienes un h1, o lo que sea y en css pones h1{color: black;}. se cambiaran todos los h1. en cambio puedes hacer div, o p con una id para que solo se cambien los especificos. (SELECTORES) <br>
         No puedes poner mismo id a varios elementos, pero si poner <strong>clases</strong> pero en vez de #, pones .
     </p>
-    <h2>HTML</h2>
+    <h2>HTML</h3>
     <p>p id="nombre" TEXTO /p</p> <br>
-    <h2>CSS</h2>
+    <h2>CSS</h3>
     <p>p#nombre{ <br>
         color: red; <br>
     } <br>
+    O si es class="algo": <br>
+    .algo{<br> color: red; <br> }
+    <h2>Consecutivos</h2>
+    <h3>HTML</h3>
+    <p>Se puede hacer que los elementos hermanos seguidos del primero tengan caracteristicas iguales <br></p>
+    <h3>CSS</h3>
+    <p>p+p(parafo seguido del primer parrafo) <br>
+        color:red; <br>
     </p>
+    </p>
+    <h2>elemento dentro de un elemento</h2>
+    <h3>HTML</h3>
+    <p>Pones lo que quieras dentro de un div</p>
+    <h3>CSS</h3>
+    <p>div > p {<br> para cambiar solo los (p) del div}</p>
+
+    <h2>Elemento con  (este sirve para diferentes idiomas)</h2>
+    <h3>HTML</h3>
+    <p>Por ejemplo pones un h2 (nombre clase)="lo que quieras" <br></p>
+    <h3>CSS</h3>
+    <p>h2[title="lo que quieras"]{<br>color: red;}</p>
+    <br> <br> <br>
+    <p>Para evitar conflictos. puedes poner en el css, !important y se mantendra ese estilo <br></p>
 </body>
 </html>
