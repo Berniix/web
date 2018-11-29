@@ -1,3 +1,7 @@
-figure{
+#imagen{
+    position:absolute; 
     max-width: 50%;
+}
+#titulo{
+    color: blue;
 }
