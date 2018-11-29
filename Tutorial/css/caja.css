@@ -1,7 +1,27 @@
 #imagen{
     position:absolute; 
     max-width: 50%;
+    border: 2px;
+    margin: 5px;
 }
-#titulo{
-    color: blue;
+figure{
+    margin: 10px;
+}
+div{
+    width: 50%;
+    height: 50px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 60px;
+}
+#maxmin{
+    width: 500px;
+    height: 50px;
+    min-width: 40%;
+    max-width: 50%;
+    border: 2px solid black;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0px;
 }
