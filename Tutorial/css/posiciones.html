@@ -10,6 +10,7 @@
     <h1>Posiciones</h1>
     <h3>Display</h3>
     <p>
+        para efectuarse tiene que estar en position: static; <br>
         Display:
         <ol>
             <li>inline-block --> Ocupan lo que tienen que ocupar al lado de otros siempre que hay espacio</li>
@@ -19,7 +20,23 @@
     </p>
     <h3>Coordenadas</h3>
     <p>
-        
+        Tiene que estar en position: relative; <br>
+        a donde se deberia pintar lo que deseas, puedes poner:
+        <ol>
+            <li>top: x</li>
+            <li>left: x</li>
+            <li>right: x</li>
+        </ol>
+        Cuando pones position: absolute; el objeto pasa a ser intocable, todo se pone encima suyo, como si no estubiera.
+    </p>
+    <h3>Position</h3>
+    <p>
+        <ol>
+            <li>Static --> Se posiciona respecto al padre, al inicio. no se mueve.</li>
+            <li>Relative --> Cuando varies la posicion, se cambiara respecto al padre.</li>
+            <li>Absolute -->  el objeto pasa a ser intocable, todo se pone encima suyo, como si no estubiera.</li>
+            <li>Fixed --> Se posiciona la caja en el body, siempre. cuando bajas la pantalla se queda fijado.(menus)</li>
+        </ol>
     </p>
 </body>
 </html>
