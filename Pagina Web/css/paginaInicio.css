@@ -1,13 +1,14 @@
 header{
-    text-align: center;
+    display: inline;
+
 }
 #titulo{
+    position: static;
     text-align: center;
 }
 #logo{
+    position: relative;
     max-width: 8%;
-    
-    
 }
 #textoTitulo{
     
@@ -16,7 +17,7 @@ header{
 
 
 nav{
-    margin-top: 9%;
+    margin-top: 2%;
 }
 nav li{
     display: inline;
